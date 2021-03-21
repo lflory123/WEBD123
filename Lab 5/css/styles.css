@@ -1,0 +1,85 @@
+/* Global Styles */
+
+body {
+    background-color: lightsteelblue;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px lightskyblue;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+     color: white;
+     text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: pink;
+    padding: 35px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    color: purple;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: cursive;
+    color: darkblue;
+}
+
+nav {
+    background-color: pink;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 2px solid hotpink;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+nav ul a:hover  {
+    background-color: purple;
+}
+
+main {
+    background-color: lightpink;
+    padding: 20px;
+    margin: 15px;
+    font-family: optima;
+    color: darkblue;
+}
+
+footer {
+    background-color: lightpink;
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    font-family: cursive;
+    color: darkblue;
+}
