@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Demo</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="dist/slicknav.css">
+	<link rel="stylesheet" href="dist/jquery.bxslider.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="dist/jquery.bxslider.min.js"></script>
+	<script src="dist/jQuery.slicknav.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="dist/zenscroll-min.js"></script>
+	<script>
+		$(function(){
+		$('#menu').slicknav();
+		$( "#accordion" ).accordion();
+		});
+		$(document).ready(function(){ $('.slider').bxSlider(); });
+		</script>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Red Pandas</h1>
+		</header>
+
+		<nav>
+			<ul id="menu">
+				<li><a href="#main">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Album</a></li>
+				<li><a href="#">Foundations</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<section>
+				<article>
+					
+					<h2 id="main">Main Content</h2>
+					<p> Here is some information on a red panda. The Red Panda is slightly larger then a domestic cat with a bear like body and thick russet fur. The belly and limbs are black, and they are white markings on the side of the head and above its small eyes. Red Pandas are very skillfull and acrobatic anaimals that are predominatly stay in trees. Almost 50 percent of the Red Pandas habitat is in the eastern Himalayas. They use their long, bushy tails for balance to cover themseleves in winter, presumably for warmth. Primarily an herbavore, the name panda is said to come from the Napil word Ponya which means bamboo or plant eating animal. We should care about it at some degree because the loss of nesting trees and bamboo is causing a decline in red panda populations across much of their range because their forest home is being cleared.We can help in two big ways one is to work together to solve the worlds greatest environmental problems and protect our forest. You can also make a symbolic red panda adoption to help save some pandas.  </p>
+						<img src="images/layingredpanda.jpg" alt="Panda laying">
+                        <div id="accordion">
+							<h3>Section 1</h3>
+							<div>
+							  <p>
+							  Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+							  ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+							  amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+							  odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+							  </p>
+							</div>
+							<h3>Section 2</h3>
+							<div>
+							  <p>
+							  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+							  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+							  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+							  suscipit faucibus urna.
+							  </p>
+							</div>
+							<h3>Section 3</h3>
+							<div>
+							  <p>
+							  Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+							  Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+							  ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+							  lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+							  </p>
+							  <ul>
+								<li>List item one</li>
+								<li>List item two</li>
+								<li>List item three</li>
+							  </ul>
+							</div>
+							<h3>Section 4</h3>
+							<div>
+							  <p>
+							  Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+							  et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+							  faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+							  mauris vel est.
+							  </p>
+							  <p>
+							  Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+							  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+							  inceptos himenaeos.
+							  </p>
+							</div>
+						  </div>
+
+				</article>
+					
+				<div class="feature">
+					<h3 id="portfolio">Featured Pandas</h3>
+					<div class="projects slider">
+						<img src="images/bambooforest.jpg" alt="Bamboo forest">
+						<img src="images/habitatredpanda.jpg" alt="Red Panda habitat">
+						<img src="images/pandaeating.jpg" alt="Panda eating">
+                  </div>
+				  </div>
+				<aside id="contact">
+					<h3>Contact Information </h3>
+					<h4>World Wild Life Organization</h4>
+					<ul>
+						<li><a href="#">Email Us</a></li>
+						<li><a href="202-293-4800">Call Us</a></li>
+					</ul>
+				</aside>
+			</section>
+		</main>
+		<footer>&copy; 2021 Lab 8 jQuery</footer>
+	</div>
+</body>
+
+</html>
