@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Demo</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="dist/slicknav.css">
+	<link rel="stylesheet" href="dist/jquery.bxslider.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="dist/jquery.bxslider.min.js"></script>
+	<script src="dist/jQuery.slicknav.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="dist/zenscroll-min.js"></script>
+	<script>
+		$(function(){
+		$('#menu').slicknav();
+		$( "#accordion" ).accordion();
+		});
+		$(document).ready(function(){ $('.slider').bxSlider(); });
+		</script>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Red Pandas</h1>
+		</header>
+
+		<nav>
+			<ul id="menu">
+				<li><a href="#main">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Album</a></li>
+				<li><a href="#">Foundations</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<section>
+				<article>
+					
+					<h2 id="main">Main Content</h2>
+					<p> Here is some information on a red panda. The Red Panda is slightly larger then a domestic cat with a bear like body and thick russet fur. The belly and limbs are black, and they are white markings on the side of the head and above its small eyes. Red Pandas are very skillfull and acrobatic anaimals that are predominatly stay in trees. Almost 50 percent of the Red Pandas habitat is in the eastern Himalayas. They use their long, bushy tails for balance to cover themseleves in winter, presumably for warmth. Primarily an herbavore, the name panda is said to come from the Napil word Ponya which means bamboo or plant eating animal. We should care about it at some degree because the loss of nesting trees and bamboo is causing a decline in red panda populations across much of their range because their forest home is being cleared.We can help in two big ways one is to work together to solve the worlds greatest environmental problems and protect our forest. You can also make a symbolic red panda adoption to help save some pandas.  </p>
+						<img src="images/layingredpanda.jpg" alt="Panda laying">
+                        <div id="accordion">
+							<h3>Section 1</h3>
+							<div>
+							  <p>
+							  Two varieties of pandas have long been suspected, based on physical features but genetic evidence has been lacking.
+							  </p>
+							</div>
+							<h3>Section 2</h3>
+							<div>
+							  <p>
+							  Nevertheless, the two are: the chinese and Himalayan red pandas.
+							  </p>
+							</div>
+							<h3>Section 3</h3>
+							<div>
+							  <p>
+							  These should be regarded as seperate species, say researchers in China. Chinese pandas have redder fur and striped tail rings. Himalayan pandas have whiter faces. 
+							  </p>
+							  <ul>
+								<li>Body length: 50-64 cms</li>
+								<li>tail length: 28-50 cms</li>
+								<li>weight: 3-6 kgs</li>
+							  </ul>
+							</div>
+							<h3>Section 4</h3>
+							<div>
+							  <p>
+							  More of what these pandas eat include grasses,roots,fruit,grubs, bird eggs and small vertebrates.
+							  </p>
+							  <p>
+							  They can also make nests in tree holes, branch forks and tree roots. So let's help protect our furry friends with all this new found information. 
+							  </p>
+							</div>
+						  </div>
+
+				</article>
+					
+				<div class="feature">
+					<h3 id="portfolio">Featured Pandas</h3>
+					<div class="projects slider">
+						<img src="images/bambooforest.jpg" alt="Bamboo forest">
+						<img src="images/habitatredpanda.jpg" alt="Red Panda habitat">
+						<img src="images/pandaeating.jpg" alt="Panda eating">
+                  </div>
+				  </div>
+				<aside id="contact">
+					<h3>Contact Information </h3>
+					<h4>World Wild Life Organization</h4>
+					<ul>
+						<li><a href="#">Email Us</a></li>
+						<li><a href="202-293-4800">Call Us</a></li>
+					</ul>
+				</aside>
+			</section>
+		</main>
+		<footer>&copy; 2021 Lab 8 jQuery</footer>
+	</div>
+</body>
+
+</html>
