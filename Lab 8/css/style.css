@@ -1,5 +1,5 @@
 body {
-	background-color: orangered;
+	background-color: #b3a29a;
 }
 
 header {
@@ -37,7 +37,7 @@ nav li a {
 	padding: 10px 0;
 	background-color:#F5FFFE;
 	text-align: center;
-	color: orangered;
+	color: #88B3AF;
 	font-size: 125%;
 	text-decoration: none;
 }
@@ -48,7 +48,7 @@ nav li a:hover {
 }
 
 main {
-	background-color: black;
+	background-color: #88b3af;
 	padding: 10px;
 }
 
@@ -93,7 +93,7 @@ aside li {
 
 aside li a {
 	padding: 20px 40px;
-	background-color: light orange;
+	background-color: #B3A29A;
 	text-align: center;
 	color: #F5FFFE;
 	font-size: 125%;
@@ -102,11 +102,11 @@ aside li a {
 }
 
 aside li a:hover {
-	background-color: orangered;
+	background-color: #88B3AF;
 }
 
 footer {
-	background-color: black;
+	background-color: #B3A29A;
 	text-align: center;
 	color: #ffffff;
 	padding: 20px 0;
@@ -138,7 +138,7 @@ footer {
 	}
 
 	nav li a {
-		background-color: brown;
+		background-color: #88B3AF;
 		color: #F5FFFE;
 	}
 	
