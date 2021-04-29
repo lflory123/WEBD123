@@ -115,6 +115,7 @@ footer {
     main {
         display: flex;
         list-style-type: none;
+        font-size: 40px;
     }
 
     section,aside {
@@ -122,11 +123,7 @@ footer {
         padding: 20px;
         margin: 10px;
     }
-
-    section {
-        width: 70%;
-    }
-
+    
     aside {
         width: 30%;
     }

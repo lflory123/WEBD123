@@ -1,0 +1,243 @@
+/* Global Styles */
+
+body {
+    background-image: repeating-linear-gradient(brown,pink)
+}
+
+img {
+    width: 100%;
+    max-width: 30em;
+    border-radius: 100px;
+    display: block;
+    margin: 1em auto;
+}
+
+a {
+    color: black;
+    font-size: 80px;
+}
+
+a:hover {
+     color: green;
+     text-decoration: none;
+}
+
+
+/* Mobile Styles */
+
+header {
+    background-color: rgba(255, 244, 184, 0.863);
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: cursive;
+    color: rgba(212, 88, 88, 0.589);
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: cursive;
+    color: rgba(100, 28, 28, 0.363);
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: rgb(202, 160, 141);
+    text-align: center;
+    font-size: 50px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    border-top: 2px solid brown;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+nav ul a:hover  {
+    background-color: whitesmoke;
+}
+
+ol {
+    margin: 1em;
+}
+
+h3 {
+    font-size: 1.70em;
+    margin: 2em 0 1.75em 0;
+}
+
+main {
+    display: inline-block;
+    background-color: lightyellow;
+    padding: 40px;
+    margin: 0;
+    font-family: optima;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+aside {
+    margin: 0 auto;
+    max-width: 17em;
+}
+aside li {
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    font-family: cursive;
+    color: rgba(228, 122, 175, 0.938);
+}
+
+figcaption {
+    color:rgba(100, 28, 28, 0.651);
+    text-align: center;
+    width: 75%;
+    margin: 1em auto;
+    max-width: 20em;
+}
+
+.desktop {
+    display: none;
+}
+
+iframe {
+    width: 100%;
+    min-height: 10em;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex a {
+    font-size: 1em;
+}
+
+#back-to-top {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+    header {
+       
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 0;
+    }
+
+    h1 {
+        color: rgba(165, 42, 42, 0.329);
+        text-shadow: 2px 2px 2px white;
+        font-size: 2em;
+    }
+
+    nav li {
+        display: inline-block;
+
+    }
+
+    nav li a {
+        padding: 10px 30px;
+    }
+
+    main {
+        list-style-type: none;
+    }
+}
+
+/* Desktop Styles*/
+
+@media only screen and (min-width: 1024px) {
+    header {
+        
+        background-size: 3px;
+        padding: 40px 0;
+        font-size: 3em;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 3em;
+        line-height: 1.25em;
+    }
+
+    nav li a {
+        font-size: 40px;
+        padding: 20px 80px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #container {
+        width: 60%;
+        margin: 20px auto;
+        border: 4px solid rgba(212, 88, 88, 0.589);
+    }
+
+    .desktop {
+        display: block;
+    } 
+
+    main {
+        line-height: 1.5em;
+    }
+
+    .tab_mobile {
+        display: none;
+    }
+
+    .active {
+        background-color:rgba(100, 28, 28, 0.363);
+    }
+
+   
+    main img {
+        border-radius: 30px;
+        border:6px solid rgba(100, 28, 28, 0.363);
+        width: 75%;
+        max-width: 20em;
+        margin: 1em auto;
+    }
+
+    footer {
+        font-size: 60px;
+    }
+
+    #flex {
+        flex-direction: row;
+    }
+}
